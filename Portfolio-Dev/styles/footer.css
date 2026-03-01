@@ -1,0 +1,64 @@
+#contato {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+main section, footer#contato {
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.contatos-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contato-card {
+  text-decoration: none; 
+  background-color: var(--stroke-color);
+  border: 1px solid var(--brand-color-dark);
+  border-radius: 12px;
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.contato-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--brand-color-light);
+  background: linear-gradient(145deg, #1e293b, #0f172a);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.card-conteudo i {
+  font-size: 35px;
+  color: var(--brand-color-light);
+  margin-bottom: 10px;
+}
+
+.card-conteudo h3 {
+  font: var(--h3);
+  color: var(--text-color-primary);
+}
+
+.card-conteudo p {
+  font: var(--text-sm);
+  color: var(--text-color-secundary);
+}

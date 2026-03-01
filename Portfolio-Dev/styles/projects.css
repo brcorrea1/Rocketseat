@@ -1,0 +1,62 @@
+.projetos-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#projetos .card{
+  background: var(--stroke-color);
+  border: 1px solid var(--brand-color-dark);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+#projetos .card:hover {
+  transform: translateY(-8px);
+  border-color: var(--brand-color-light);
+}
+
+#projetos .card img {
+  width: 100%;
+  height: 600px;
+  border-bottom: 1px solid var(--brand-color-dark);
+}
+
+#projetos .card h3, p, .projeto-tags {
+  padding: 10px 20px;
+}
+
+#projetos .card h3 {
+  font: var(--h1);
+  color: var(--brand-color-light);
+  margin-top: 10px;
+  text-align: center;
+}
+
+#projetos .card p {
+  font: var(--text-sm);
+  color: var(--text-color-primary);
+  flex-grow: 1;
+}
+
+.projeto-tags {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 20px !important;
+}
+
+.tag-tech {
+  background: rgba(96, 165, 250, 0.1);
+  color: var(--brand-color-light);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 3px solid rgba(96, 165, 250, 0.3);
+}

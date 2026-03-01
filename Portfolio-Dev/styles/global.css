@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 :root {
   --brand-color-light: #60A5FA;
-  --brand-color-dark: #1D4ED8;
-  --bg-color: #0F172A;
+  --brand-color-dark: #c9d0e3;
+  --bg-color: #2f0606;
   --stroke-color: #1E293B;
   --text-color-primary: #f1f5f9;
   --text-color-secundary: #CBD5E1;
@@ -23,5 +24,26 @@
 }
 
 body {
-  background-color: white;
+background-color: black;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(21, 46, 114, 0.5) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(31, 58, 125, 0.5) 0px, transparent 50%);
+  background-attachment: fixed;  
+  font: var(--text);
+  color: var(--text-color-primary);
+  font: var(--text);
+  color: var(--text-color-primary);
 }
+
+  h2 {
+    font: var(--h1); 
+    color: var(--brand-color-light);
+    text-align: center;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px;
+  }
+
+
+
