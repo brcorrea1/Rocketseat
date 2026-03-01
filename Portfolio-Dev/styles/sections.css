@@ -13,17 +13,12 @@
   flex-wrap: wrap;
   gap: 50px;
   font-size: 20px;
-  margin-bottom: ;
-}
+  }
 }
 
 #servicos {
   padding: 20px 0 40px 0;
-  h2 {
-    margin-bottom: px !important;
-  }
 }
-
 
 .skill-card, .servico-card  {
   background-color: var(--stroke-color);
